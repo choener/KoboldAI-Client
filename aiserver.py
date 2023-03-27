@@ -2115,7 +2115,7 @@ def reset_model_settings():
     vars.sampler_order = [6, 0, 1, 2, 3, 4, 5]
     vars.newlinemode = "n"
     vars.revision    = None
-    vars.lazy_load = True
+    vars.lazy_load = False
     
 
 def load_model(use_gpu=True, gpu_layers=None, disk_layers=None, initial_load=False, online_model="", use_breakmodel_args=False, breakmodel_args_default_to_cpu=False):
